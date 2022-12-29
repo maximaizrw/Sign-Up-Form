@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("/assets/fonts/Norse-Bold.otf") format("opentype");
+}
+.panel {
+  background-color: #f9fafb;
+}
+.panel .background {
+  background-image: url(/assets/img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.panel .background .logo {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  margin-top: 30%;
+}
+.panel .background .logo img {
+  width: 4rem;
+}
+.panel .background .logo h1 {
+  color: white;
+  font-family: "Norse-Bold";
+  font-size: 5rem;
+}
+.panel .right .text {
+  margin-top: 10%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 20px;
+  width: 60%;
+}
+.panel .right .card {
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 100% !important;
+}
+.panel .right .card .card-body {
+  padding: 20px;
+  width: 70%;
+}
+.panel .right .card .card-body label {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.panel .right .card .card-body .form-control:valid {
+  border-color: blue;
+  box-shadow: none;
+}
+.panel .right .card .card-body .form-control:invalid {
+  box-shadow: none;
+}
+.panel .right .button {
+  padding: 0 20px;
+}
+.panel .right .button .btn-create {
+  background-color: #596d48;
+  color: white;
+  font-weight: 500;
+  padding: 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.panel .right .button .btn-create:hover {
+  background-color: white;
+  color: #596d48;
+  border-color: #596d48;
+}
+.panel .right .button a {
+  color: #596d48;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
